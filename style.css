@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  margin: 2px;
+}
+h1 {
+  color: #000;
+  cursor: pointer;
+  position: absolute;
+}
+
+#canvas{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #14142B;
+}
