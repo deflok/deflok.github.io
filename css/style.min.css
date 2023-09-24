@@ -898,13 +898,8 @@ body._scroll-lock {
 
 .swiper-wrapper {
   will-change: transform;
-  transition: all ease 1.5s !important;
 }
-@media (max-width:991px) {
-  .swiper-wrapper {
-    transition: all ease-out 0.4s !important;
-  }
-}
+
 .swiper-pagination {
   overflow: visible !important;
   right: auto !important;
@@ -2012,7 +2007,7 @@ canvas {
 @media (max-width:767px) {
   .level-up__table th {
     font-size: 1.2rem;
-    padding: 0rem;
+    padding: 0 0.2rem;
     line-height: 110%;
   }
 }
@@ -3535,10 +3530,14 @@ canvas {
   width: 100%;
 }
 
+section:nth-child(2n) {
+  background-color: #1e1e1e;
+}
 section .container {
   position: relative;
   height: 100%;
   padding: 18rem 0 10rem;
+  z-index: 1;
 }
 @media (max-width:991px) {
   section .container {
@@ -3554,8 +3553,8 @@ section .container::after, section .container::before {
   content: "";
   display: block;
   position: absolute;
-  border-left: 1px solid #131313;
-  border-right: 1px solid #131313;
+  border-left: 1px solid rgba(255, 255, 255, 0.08);
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
   width: 1px;
   height: 100vh;
   top: 0;
