@@ -555,6 +555,12 @@ body._scroll-lock {
 .header__language .dropdown__current svg path {
   transition: fill ease 0.4s;
 }
+@media (max-width:767px) {
+  .header__language .dropdown__current svg {
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+}
 .header__language .dropdown__list {
   display: none;
   position: absolute;
@@ -564,6 +570,7 @@ body._scroll-lock {
   padding: 1.4rem;
   border: 1px solid #fff;
   border-radius: 0.4rem;
+  background-color: #000;
 }
 .header__language .dropdown__list._active {
   display: block;
@@ -835,9 +842,9 @@ body._scroll-lock {
 }
 
 .burger-btn {
-  min-width: 24px;
-  width: 24px;
-  height: 16px;
+  min-width: 2.4rem;
+  width: 2.4rem;
+  height: 1.6rem;
   display: none;
   justify-content: center;
   align-items: center;
@@ -852,7 +859,7 @@ body._scroll-lock {
 .burger-btn span {
   display: block;
   width: 100%;
-  height: 3px;
+  height: 0.3rem;
   background: #fff;
   position: relative;
   border-radius: 4px;
@@ -863,16 +870,16 @@ body._scroll-lock {
   position: absolute;
   left: 0;
   width: 100%;
-  height: 3px;
+  height: 0.3rem;
   background: #fff;
   transition: transform 0.2s ease, top 0.2s ease 0.2s;
   border-radius: 4px;
 }
 .burger-btn span:before {
-  top: -8px;
+  top: -0.8rem;
 }
 .burger-btn span:after {
-  top: 8px;
+  top: 0.8rem;
 }
 .burger-btn._active span {
   background: transparent;
