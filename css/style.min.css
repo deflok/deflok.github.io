@@ -2679,8 +2679,8 @@ canvas {
 }
 @media (max-width:767px) {
   .write__input textarea {
-    min-height: 5rem;
-    height: 6rem;
+    min-height: 4rem;
+    height: 4rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
