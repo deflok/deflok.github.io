@@ -356,6 +356,12 @@ body._scroll-lock {
     padding: 3rem 0 0;
   }
 }
+@media (max-width:767px) {
+  .header__inner {
+    padding: 2.4rem 0 1rem;
+  }
+}
+
 .header__menu {
   padding: 2.5rem 0;
   display: flex;
@@ -663,7 +669,7 @@ body._scroll-lock {
 }
 @media (max-width:767px) {
   .footer__inner {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     flex-direction: column;
     align-items: stretch;
     gap: 1rem;
@@ -970,6 +976,10 @@ body._scroll-lock {
     display: none;
   }
 }
+.swiper-slide {
+  overflow: hidden;
+}
+
 canvas {
   position: absolute;
   top: 0;
@@ -2584,7 +2594,6 @@ canvas {
 
 @media (max-width:767px) {
   .write__content {
-    grid-column: span 2;
     display: grid;
     grid-template-columns: 1fr auto;
   }
@@ -3419,7 +3428,7 @@ section .container {
 }
 @media (max-width:767px) {
   section .container {
-    padding: 9rem 2rem 9rem 2rem;
+    padding: 8rem 2rem 9rem 2rem;
   }
 }
 section .container::after, section .container::before {
