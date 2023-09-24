@@ -3500,6 +3500,12 @@ canvas {
   border-radius: 0.8rem;
   cursor: pointer;
 }
+@media (max-width:767px) {
+  .sign-up__checkbox span::before {
+    width: 3.4rem;
+    height: 3.4rem;
+  }
+}
 .sign-up__checkbox span::after {
   content: "";
   display: block;
