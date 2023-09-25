@@ -150,7 +150,12 @@
             <div class="about__inner">
               <h2 class="about__title section-title">About<br>us</h2>
               <div class="about__image"><img src="img/about-img.jpg" alt="about"></div>
-              <div class="about__video"><img src="img/about-video.jpg" alt="about"></div>
+              <!-- класс js-video в том случае если видео с вашего сервера, а не с youtube или же vk -->
+              <div class="about__video js-video">
+                <video poster="img/intro-bg.jpg">
+                  <source src="files/intro-bg.mkv" >
+                </video>
+              </div>
               <div class="about__content">
                 <p class="about__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro iusto, reiciendis eaque nam dolore ipsam ipsa unde cupiditate pariatur aliquam qui eligendi amet placeat odit dicta, corporis ratione exercitationem est.</p>
                 <a href="#" class="about__btn btn">More about</a>
