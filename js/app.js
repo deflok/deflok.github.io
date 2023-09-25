@@ -159,7 +159,7 @@ const pages = new Swiper('.swiper', {
   direction: 'vertical',
   // effect: 'coverflow',
   // effect: 'cube',
-  // speed: 1500,
+  speed: 1500,
   // parallax: true,
   // fadeEffect: {
   //   crossFade: true
@@ -172,7 +172,7 @@ const pages = new Swiper('.swiper', {
     
   },
   mousewheel: true,
-  // allowTouchMove: false,
+  allowTouchMove: true,
   on: {
     init: function (el) {
       if(el.slides.length > 1 && el.slides.length < 5){
@@ -183,6 +183,14 @@ const pages = new Swiper('.swiper', {
       document.querySelector('.swiper-number').innerHTML = '0' + (el.activeIndex + 1);
     }
   },
+  breakpoints: {
+    320: {
+      speed: 300,
+    },
+    1024: {
+      allowTouchMove: false
+    }
+  }
   // on: {
   //   slideChange: function (){
   //     menuItems.forEach(el=> {el.classList.remove('_active');});
@@ -190,7 +198,6 @@ const pages = new Swiper('.swiper', {
   //   }
   // }
 });
-
 
 
 
@@ -211,3 +218,22 @@ for (var i = 0; i < bubblyButtons.length; i++) {
   });
 }
 
+
+// скрипт активации видео с сервера
+if (document.querySelectorAll(".js-video").length > 0) {
+  document.querySelectorAll(".js-video").forEach((video) => {
+    video.addEventListener("click", (e) => {
+      video.classList.toggle("_playing");
+      let media = video.querySelector("video");
+      if (media.paused) {
+        media.play();
+      } else {
+        media.pause();
+      }
+
+      media.addEventListener("ended", () => {
+        video.classList.remove("_playing");
+      });
+    });
+  });
+}

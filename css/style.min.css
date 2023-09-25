@@ -343,6 +343,54 @@ body._scroll-lock {
   width: 100%;
 }
 
+.js-video {
+  position: relative;
+  cursor: pointer;
+}
+.js-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@media (min-width: 1024px) {
+  .js-video::after, .js-video::before {
+    transition: all linear 0.2s;
+  }
+  .js-video:hover::after {
+    opacity: 1;
+  }
+}
+.js-video::after, .js-video::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 2;
+  width: 11.5rem;
+  height: 11.5rem;
+}
+.js-video::after {
+  background: url(../img/icons/play-white.svg) no-repeat center right 2rem/6rem;
+  opacity: 0;
+}
+.js-video::before {
+  background: url(../img/icons/play.svg) no-repeat center right 2rem/6rem, rgba(0, 0, 0, 0.8);
+}
+.js-video._playing::after {
+  opacity: 0;
+  visibility: hidden;
+}
+.js-video._playing::before {
+  opacity: 0;
+  visibility: hidden;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -1795,6 +1843,7 @@ canvas {
   height: 24rem;
   overflow: hidden;
   position: relative;
+  z-index: 2;
 }
 @media (max-width:991px) {
   .affiliate__image {
@@ -1818,9 +1867,11 @@ canvas {
 .affiliate__table {
   grid-column: span 2;
   width: 100%;
+  position: relative;
+  z-index: 2;
 }
 .affiliate__table th {
-  background-color: #141414;
+  background-color: rgba(255, 255, 255, 0.08);
   font-weight: 400;
   padding: 2.5rem 0;
 }
@@ -1964,6 +2015,8 @@ canvas {
 
 .level-up__table {
   grid-column: span 2;
+  position: relative;
+  z-index: 2;
 }
 @media (max-width:991px) {
   .level-up__table {
@@ -2332,6 +2385,8 @@ canvas {
 
 .invisting__form {
   margin-top: 6rem;
+  position: relative;
+  z-index: 2;
 }
 @media (max-width:991px) {
   .invisting__form {
@@ -2431,6 +2486,7 @@ canvas {
   overflow: hidden;
   position: relative;
   width: 100%;
+  z-index: 2;
 }
 @media (max-width:767px) {
   .faq__image {
@@ -2772,6 +2828,8 @@ canvas {
 
 .write__form {
   grid-row: span 2;
+  position: relative;
+  z-index: 2;
 }
 
 .write__input {
@@ -3121,6 +3179,7 @@ canvas {
   overflow: hidden;
   position: relative;
   height: 100%;
+  z-index: 2;
 }
 @media (max-width:991px) {
   .location__map {
@@ -3182,6 +3241,8 @@ canvas {
   grid-column: span 3;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  position: relative;
+  z-index: 2;
   grid-gap: 2.6rem 3rem;
   padding-right: 5.4rem;
 }
@@ -3537,6 +3598,29 @@ canvas {
   width: 100%;
 }
 
+section::after, section::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: var(--main);
+  border-radius: 0.5rem;
+  width: 0.4rem;
+  height: 12rem;
+  top: -30rem;
+}
+@media (max-width:991px) {
+  section::after, section::before {
+    display: none;
+  }
+}
+section::after {
+  animation: line 4s linear 3s infinite;
+  right: 37.3rem;
+}
+section::before {
+  animation: line 4s linear 1s infinite;
+  left: calc(37.3rem + var(--pl));
+}
 section:nth-child(2n) {
   background-color: #1e1e1e;
 }
@@ -3579,4 +3663,36 @@ section .container::before {
 section .container::after {
   width: 27.5rem;
   right: 0;
+}
+section .container > div::after, section .container > div::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: var(--main);
+  border-radius: 0.5rem;
+  width: 0.4rem;
+  height: 12rem;
+  top: -30rem;
+}
+@media (max-width:991px) {
+  section .container > div::after, section .container > div::before {
+    display: none;
+  }
+}
+section .container > div::after {
+  animation: line 4s linear infinite;
+  right: var(--pr);
+}
+section .container > div::before {
+  animation: line 4s linear 2s infinite;
+  left: calc(var(--pl) + var(--w1) - 0.2rem);
+}
+
+@keyframes line {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(150rem);
+  }
 }
