@@ -2,6 +2,7 @@
   --color-text: #1e1e1e;
   --color-main: #1e1e1e;
   --color-bg: #ffffff;
+  --vh: 100%;
 }
 
 @font-face {
@@ -105,12 +106,14 @@ input::-webkit-inner-spin-button {
 html {
   font-size: 10px;
   height: var(--vh) !important;
+  overflow: hidden;
 }
 
 body {
   font-size: 1.8rem;
   background: var(--color-bg);
   height: var(--vh) !important;
+  overflow: hidden;
 }
 body._scroll-lock {
   overflow: hidden;
