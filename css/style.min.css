@@ -104,13 +104,13 @@ input::-webkit-inner-spin-button {
 
 html {
   font-size: 10px;
-  height: var(--vh) !important;
+  height: 100% !important;
 }
 
 body {
   font-size: 1.8rem;
   background: var(--color-bg);
-  height: var(--vh) !important;
+  height: 100% !important;
 }
 body._scroll-lock {
   overflow: hidden;
@@ -202,4 +202,10 @@ body._scroll-lock {
   background-position: center;
   background-size: cover;
   margin-bottom: 125px;
+}
+
+.page {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
