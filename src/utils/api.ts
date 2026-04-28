@@ -1,7 +1,7 @@
 import translit from 'cyr2lat-translit';
 
 // Базовый URL для API (автоматически подставится в браузере и на сервере)
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || (typeof window !== 'undefined' ? '' : 'http://localhost:3000');
+const BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000';
 
 // ==================== ТИПЫ ====================
 export interface Project {
