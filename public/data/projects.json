@@ -1,0 +1,169 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Gwchina",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/gwchina-600x399.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Ezzhev",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/ezzhev-600x399.jpg"
+    },
+    {
+      "id": 3,
+      "title": "ЭКО Транс",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/eco-trans-600x399.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Mally",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/mally-600x399.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Profsnab",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/profsnab-600x399.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Osama",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/osama-sushi-600x399.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Bell",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/bell-600x399.jpg"
+    },
+    {
+      "id": 8,
+      "title": "British English",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/british-english-600x399.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Callstata",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/callstata-600x399.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Особенный",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/center-600x399.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Чистое дело",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/ch-delo-600x399.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Dsshipping",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/dsshipping-600x399.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Elturion",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/elturion-600x399.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Estate",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/esbg-600x399.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Fotofor",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/fotofor-600x399.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Хасан",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/khasanllc-600x399.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Olympiada",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/olympiada-600x399.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Open Door",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/open-door-600x399.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Orange Life",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/orange-life-600x399.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Паспорт доступности",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/passport-600x399.jpg"
+    },
+    {
+      "id": 21,
+      "title": "Foxed",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/foxed-600x399.jpg"
+    },
+    {
+      "id": 22,
+      "title": "АКБ",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/akb-600x399.jpg"
+    },
+    {
+      "id": 23,
+      "title": "Ima mebel",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/abi178-600x399.jpg"
+    },
+    {
+      "id": 24,
+      "title": "Продай тут",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/prodaytut-600x399.jpg"
+    },
+    {
+      "id": 25,
+      "title": "Ресурс",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/resurs-uss-600x399.jpg"
+    },
+    {
+      "id": 26,
+      "title": "Саир",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/sair-600x399.jpg"
+    },
+    {
+      "id": 27,
+      "title": "СК Гранит",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/skgranit-600x399.jpg"
+    },
+    {
+      "id": 28,
+      "title": "Education",
+      "img": "https://def-it.ru/wp-content/uploads/2025/10/workingi-600x399.jpg"
+    },
+    {
+      "id": 29,
+      "title": "Sl Print",
+      "img": "https://def-it.ru/wp-content/uploads/2025/01/slprint-600x399.jpg"
+    },
+    {
+      "id": 30,
+      "title": "Road to Mars",
+      "img": "https://def-it.ru/wp-content/uploads/2025/01/mars-600x399.jpg"
+    },
+    {
+      "id": 31,
+      "title": "Генетика",
+      "img": "https://def-it.ru/wp-content/uploads/2025/01/genetica-600x399.jpg"
+    },
+    {
+      "id": 32,
+      "title": "EDUCA RUSSIA",
+      "img": "https://def-it.ru/wp-content/uploads/2025/01/educa-600x399.jpg"
+    },
+    {
+      "id": 33,
+      "title": "Bioday",
+      "img": "https://def-it.ru/wp-content/uploads/2025/01/bioday-600x399.jpg"
+    }
+  ]
+}

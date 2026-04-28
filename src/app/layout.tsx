@@ -1,16 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/layouts/Header";
+import Footer from "@/components/layouts/Footer";
+import Breadcrumbs from "@/components/Breadcrumbs";
+// import { Preloader } from "@/components/ui/Preloader";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -23,8 +17,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ru" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="ru" className={`h-full`}>
+      <body className="min-h-full">
+
+        <div className="page">
+          <Header />
+
+          <main className="main">
+            <Breadcrumbs />
+
+            {children}
+          </main>
+
+          <Footer />
+        </div>
+
+      </body>
     </html>
   );
 }
