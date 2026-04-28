@@ -30,7 +30,7 @@ export default async function Home() {
             <div className="services__list">
               
               <a className="services__item" href="#"
-                style={{backgroundImage: "url(https://i.pinimg.com/564x/55/43/95/5543956c0baf76903f7791594d231117.jpg);"}}>
+                style={{backgroundImage: "url(https://i.pinimg.com/564x/55/43/95/5543956c0baf76903f7791594d231117.jpg)"}}>
                 <div className="services__item-content">
                   <div className="services__item-title">Landing page</div>
                   <div className="services__item-subtitle"><span>От</span> 15 000 <span>руб</span></div>
@@ -38,7 +38,7 @@ export default async function Home() {
               </a>
               
               <a className="services__item" href="#"
-                style={{backgroundImage: "url(https://i.pinimg.com/564x/b9/65/d1/b965d157f432b22cbb8e3531abd9f54e.jpg);"}}>
+                style={{backgroundImage: "url(https://i.pinimg.com/564x/b9/65/d1/b965d157f432b22cbb8e3531abd9f54e.jpg)"}}>
                 <div className="services__item-content">
                   <div className="services__item-title">Корпоративный</div>
                   <div className="services__item-subtitle"><span>От</span> 25 000 <span>руб</span></div>
@@ -46,7 +46,7 @@ export default async function Home() {
               </a>
               
               <a className="services__item" href="#"
-                style={{backgroundImage: "url(https://i.pinimg.com/564x/46/51/7c/46517c29ac2f4055e5cbf5b95d6a1b46.jpg);"}}>
+                style={{backgroundImage: "url(https://i.pinimg.com/564x/46/51/7c/46517c29ac2f4055e5cbf5b95d6a1b46.jpg)"}}>
 
                 <div className="services__item-content">
                   <div className="services__item-title">Блог</div>
@@ -56,7 +56,7 @@ export default async function Home() {
 
               
               <a className="services__item" href="#"
-                style={{backgroundImage: "url(https://i.pinimg.com/564x/6e/f3/92/6ef39211caac84ef98289b098bf9362a.jpg);"}}>
+                style={{backgroundImage: "url(https://i.pinimg.com/564x/6e/f3/92/6ef39211caac84ef98289b098bf9362a.jpg)"}}>
                 <div className="services__item-content">
                   <div className="services__item-title">Интернет-магазин</div>
                   <div className="services__item-subtitle"><span>От</span> 30 000 <span>руб</span></div>

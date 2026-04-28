@@ -59,8 +59,8 @@
 
 :root {
   --font-roboto: "RobotoCondensed", sans-serif;
-  --font-brush-type: "BrushType", sans-serif;
-  --font-bebas-neue: "BebasNeue", sans-serif;
+  --font-brush-type: "BrushType", system-ui;
+  --font-bebas-neue: "BebasNeue", system-ui;
 
   --background: #ffffff;
   --foreground: #171717;
